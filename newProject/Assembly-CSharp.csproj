@@ -48,7 +48,13 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\CameraController.cs" />
      <Compile Include="Assets\Scripts\CharacterMove.cs" />
+     <Compile Include="Assets\Scripts\DestroyByBoundary.cs" />
+     <Compile Include="Assets\Scripts\boltMover.cs" />
+     <Compile Include="Assets\Scripts\destroyByContact.cs" />
+     <Compile Include="Assets\Scripts\droneMovement.cs" />
+     <Compile Include="Assets\Scripts\droneShotMover.cs" />
      <Compile Include="Assets\Scripts\mover.cs" />
+     <Compile Include="Assets\Scripts\trigger.cs" />
      <None Include="Assets\fightBOT (free)\model\Materials\roboShader.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.0/UnityEngine.UI.dll</HintPath>
