@@ -53,6 +53,7 @@
      <Compile Include="Assets\Scripts\GameFinish.cs" />
      <Compile Include="Assets\Scripts\GameStart.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\boss1Script.cs" />
      <Compile Include="Assets\Scripts\mover.cs" />
      <Compile Include="Assets\Water\Sources\Scripts\WaterSimple.cs" />
      <None Include="Assets\fightBOT\model\Materials\roboShader.shader" />
