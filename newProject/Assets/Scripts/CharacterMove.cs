@@ -9,7 +9,7 @@ public class CharacterMove : MonoBehaviour {
 
 	public Slider slider;
 	public float fireRate = 0.5f;
-	public int smer;
+	public int smer=-1;
 	public float gravityK=0.1f;
 //	public float flashSpeed =5f;
 //	public Color flashColour = new Color (1f, 0f, 0f, 0.1f);
@@ -28,7 +28,6 @@ public class CharacterMove : MonoBehaviour {
 
 	void Awake()
 	{	
-		smer = 1;
 		fuel = maxFuel;
 		playerRigidbody = GetComponent<Rigidbody> ();
 	}
@@ -58,6 +57,7 @@ public class CharacterMove : MonoBehaviour {
 	void Update(){
 		if (Input.GetKeyDown ("space") && Time.time > nextFire) {
 			nextFire = Time.time +fireRate;
+			PlayAnimation("punch_hi_right");
 			//GameObject clone = 
 			Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
 				//as GameObject;
@@ -67,6 +67,7 @@ public class CharacterMove : MonoBehaviour {
 	
 	void  PlayAnimation ( string AnimName  ){
 		if (!animation.IsPlaying(AnimName))
+			animation[AnimName].speed = 0.1f;
 			animation.CrossFadeQueued(AnimName, 0.3f, QueueMode.PlayNow);
 	}
 	
