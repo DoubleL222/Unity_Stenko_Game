@@ -49,7 +49,7 @@ public class CharacterMove : MonoBehaviour {
 				fuel += maxFuel * 0.01f;
 		}
 		MoveHero(h,v);
-		print ("fuel: " + fuel);
+		//print ("fuel: " + fuel);
 			//	JumpHero();
 		slider.value = fuel/maxFuel*100f;
 	}
@@ -117,7 +117,7 @@ public class CharacterMove : MonoBehaviour {
 	
 	void  OnCollisionEnter ( Collision collision  ){
 		foreach( ContactPoint contact in collision.contacts ) {
-			if (contact.otherCollider.name == "GameFinish")
+			if (contact.otherCollider.name == "TreasureChest")
 				Application.LoadLevel("gameFinish");
 		}
 	}
