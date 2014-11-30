@@ -1,22 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\GameStart.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DroneMover.cs">
     <Files>
-<<<<<<< HEAD
-      <File FileName="Assets\Scripts\GameFinish.cs" Line="8" Column="43" />
-      <File FileName="D:\Unity\Test2\Assets\Scripts\GameFinish.js" Line="5" Column="3" />
-      <File FileName="Assets\Scripts\CharacterMove.cs" Line="5" Column="1" />
-      <File FileName="Assets\Scripts\GameStart.cs" Line="8" Column="9" />
-=======
-      <File FileName="Assets\Scripts\destroyByContact.cs" Line="12" Column="3" />
-      <File FileName="Assets\Scripts\CharacterMove.cs" Line="92" Column="5" />
-      <File FileName="Assets\Scripts\CameraController.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\mover.cs" Line="17" Column="38" />
-      <File FileName="Assets\Scripts\DestroyByBoundary.cs" Line="11" Column="1" />
-      <File FileName="Assets\Scripts\droneMovement.cs" Line="29" Column="35" />
-      <File FileName="Assets\Scripts\trigger.cs" Line="9" Column="11" />
-      <File FileName="Assets\Scripts\droneShotMover.cs" Line="4" Column="46" />
->>>>>>> 3faaf068935c76b2b621991faa658a9a23c895f0
+      <File FileName="Assets\DroneBoltMover.cs" Line="10" Column="92" />
+      <File FileName="Assets\Scripts\DroneMover.cs" Line="38" Column="3" />
+      <File FileName="Assets\Scripts\CharacterMove.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\mover.cs" Line="22" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

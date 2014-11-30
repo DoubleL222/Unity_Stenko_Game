@@ -15,6 +15,9 @@ public class mover : MonoBehaviour {
 		
 	}
 	void OnTriggerEnter(Collider other){
+		if (other.tag == "Player") {
+			return;		
+		}
 		Destroy (gameObject);
 	}
 	// Update is called once per frame
