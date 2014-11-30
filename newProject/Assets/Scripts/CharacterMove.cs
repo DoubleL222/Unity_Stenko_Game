@@ -9,7 +9,7 @@ public class CharacterMove : MonoBehaviour {
 
 	public Slider slider;
 	public float fireRate = 0.5f;
-
+	public int smer;
 	public float gravityK=0.1f;
 //	public float flashSpeed =5f;
 //	public Color flashColour = new Color (1f, 0f, 0f, 0.1f);
@@ -27,7 +27,8 @@ public class CharacterMove : MonoBehaviour {
 	Vector3 movement;
 
 	void Awake()
-	{
+	{	
+		smer = 1;
 		fuel = maxFuel;
 		playerRigidbody = GetComponent<Rigidbody> ();
 	}
@@ -86,10 +87,15 @@ public class CharacterMove : MonoBehaviour {
 
 	void  MoveHero (float h, float v){
 		if (Mathf.Abs (h) > 0.2f || Mathf.Abs (v) > 0.2f) {
-						if (h < 0.02f)
+						if (h < 0.02f){
 				transform.eulerAngles = new Vector3 (0f, -170.6f , 0f);
-						else if (h > -0.02f)
+				smer=1;
+			
+			}
+						else if (h > -0.02f){
 				transform.eulerAngles = new Vector3 (0f, 0.2f, 0f);
+				smer=-1;
+			}
 
 						movement.Set (-h, v, 0f);
 						movement = movement.normalized * speed * Time.deltaTime;
