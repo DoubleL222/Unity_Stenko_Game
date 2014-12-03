@@ -36,7 +36,9 @@ public class boss1Script : MonoBehaviour {
 			
 		}
 		transform.position = Vector3.MoveTowards (transform.position, endPosition, step);
-		if ( Time.time > nextFire) {
+		GameObject player = GameObject.Find ("roBot");
+		float distance = Vector3.Distance (player.transform.position, transform.position);
+		if ( Time.time > nextFire && distance < 15.0f) {
 			nextFire = Time.time +fireRate;
 			Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
 			Instantiate (shot, shotSpawn2.position, shotSpawn2.rotation);

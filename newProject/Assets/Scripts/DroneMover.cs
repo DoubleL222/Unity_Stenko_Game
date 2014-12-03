@@ -12,9 +12,11 @@ public class DroneMover : MonoBehaviour {
 	private Vector3 startPosition;
 	private Vector3 endPosition;
 	private float nextFire =0.5f;
+	private float direction;
 	// Use this for initialization
 	void Awake()
 	{	
+		direction = distance / distance;
 		startPosition = transform.position;
 		endPosition = startPosition + new Vector3 (distance, 0.0f, 0.0f);
 		transform.Rotate (0, 90.0f, 0);
@@ -30,13 +32,21 @@ public class DroneMover : MonoBehaviour {
 			endPosition=startPosition;
 			startPosition=transform.position;
 			transform.Rotate(0, 180.0f, 0);
+			direction=direction*-1;
 
 		}
 		transform.position = Vector3.MoveTowards (transform.position, endPosition, step);
-		if ( Time.time > nextFire) {
+		GameObject player = GameObject.Find ("roBot");
+		float distance = Vector3.Distance (player.transform.position, transform.position);
+		if ( Time.time > nextFire && distance < 15.0f) {
 			nextFire = Time.time +fireRate;
-
+			GameObject robotMan = GameObject.Find ("roBot");
+			Vector3 smer = -transform.position + robotMan.transform.position + new Vector3(0,0.75f, 0);
+			smer.Normalize ();
+			float kot = Vector3.Angle(new Vector3(direction, 0,0), smer );
+			shotSpawn.Rotate(0,0,kot);
 			Instantiate (shot, shotSpawn.position, shotSpawn.rotation);
+			shotSpawn.Rotate(0,0,-kot);
 			//as GameObject;
 			
 		}

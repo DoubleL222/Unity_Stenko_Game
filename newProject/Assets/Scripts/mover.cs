@@ -18,6 +18,14 @@ public class mover : MonoBehaviour {
 		if (other.tag == "Player") {
 			return;		
 		}
+		if (other.tag == "Environment" || other.tag== "robotShot") {
+			collider.isTrigger=false;
+			Transform child = transform.FindChild("VFX");
+			float x= child.renderer.bounds.size.x;
+			transform.position=transform.position+new Vector3(-x/2.0f, 0, 0);
+			rigidbody.constraints = RigidbodyConstraints.FreezeRotationX | RigidbodyConstraints.FreezeRotationZ | RigidbodyConstraints.FreezeRotationY| RigidbodyConstraints.FreezePositionY | RigidbodyConstraints.FreezePositionX | RigidbodyConstraints.FreezePositionZ;
+			return;
+		}
 		Destroy (gameObject);
 	}
 	// Update is called once per frame

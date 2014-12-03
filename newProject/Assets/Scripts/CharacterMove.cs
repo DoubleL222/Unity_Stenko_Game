@@ -22,7 +22,6 @@ public class CharacterMove : MonoBehaviour {
 	Rigidbody playerRigidbody;
 	private float nextJump;
 	private float fuel;
-	float camRayLength=100f;
 	private float nextFire =0.5f;
 	Vector3 movement;
 
@@ -89,12 +88,12 @@ public class CharacterMove : MonoBehaviour {
 	void  MoveHero (float h, float v){
 		if (Mathf.Abs (h) > 0.2f || Mathf.Abs (v) > 0.2f) {
 						if (h < 0.02f){
-				transform.eulerAngles = new Vector3 (0f, -170.6f , 0f);
+				transform.eulerAngles = new Vector3 (0f, -180.0f , 0f);
 				smer=1;
 			
 			}
 						else if (h > -0.02f){
-				transform.eulerAngles = new Vector3 (0f, 0.2f, 0f);
+				transform.eulerAngles = new Vector3 (0f, 0.0f, 0f);
 				smer=-1;
 			}
 
