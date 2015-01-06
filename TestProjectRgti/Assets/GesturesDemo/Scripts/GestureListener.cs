@@ -65,20 +65,19 @@ public class GestureListener : MonoBehaviour, KinectGestures.GestureListenerInte
 		
 		manager.DetectGesture(userId, KinectGestures.Gestures.SwipeLeft);
 		manager.DetectGesture(userId, KinectGestures.Gestures.SwipeRight);
-//		manager.DetectGesture(userId, KinectGestures.Gestures.SwipeUp);
-//		manager.DetectGesture(userId, KinectGestures.Gestures.SwipeDown);
+		manager.DetectGesture(userId, KinectGestures.Gestures.SwipeUp);
+		manager.DetectGesture(userId, KinectGestures.Gestures.SwipeDown);
 		
-		if(GestureInfo != null)
-		{
+		if (GestureInfo != null) {
 			GestureInfo.guiText.text = "Swipe left or right to change the slides.";
-		}
+		} 
 	}
 	
 	public void UserLost(uint userId, int userIndex)
 	{
 		if(GestureInfo != null)
 		{
-			GestureInfo.guiText.text = string.Empty;
+			GestureInfo.guiText.text = "User lost.";
 		}
 	}
 

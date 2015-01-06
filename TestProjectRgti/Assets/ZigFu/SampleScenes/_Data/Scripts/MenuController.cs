@@ -5,7 +5,8 @@ public class MenuController : MonoBehaviour {
 
     public Vector3 point0;
     public Vector3 point1;
-    public GUIText output;
+    //public GUIText output;
+	public MainMenuScript selection;
 
     public GameObject[] items;
     public Color hoverColor = Color.green;
@@ -13,14 +14,13 @@ public class MenuController : MonoBehaviour {
     public Color pushColor = Color.gray;
     public Color holdColor = Color.yellow;
     public Color heldReleaseColor = Color.red;
-    public Transform nub;
     private Color origColor;
     int currentItem = 0;
     void Fader_HoverStart(ZigFader fader)
     {
         currentItem = fader.hoverItem;
 
-        output.text = fader.hoverItem.ToString();
+		//output.Selected (1);
         
         origColor = items[fader.hoverItem].renderer.material.color;
         items[fader.hoverItem].renderer.material.color = hoverColor;
@@ -37,7 +37,7 @@ public class MenuController : MonoBehaviour {
     void Fader_ValueChange(ZigFader fader)
     {
        
-        nub.localPosition = Vector3.Lerp(point0, point1, fader.value);
+        //nub.localPosition = Vector3.Lerp(point0, point1, fader.value);
     }
     bool clicked = false;
     void PushDetector_Push()
@@ -54,6 +54,7 @@ public class MenuController : MonoBehaviour {
     {
         clicked = true;
         items[currentItem].renderer.material.color = clickColor;
+		selection.Selected (currentItem);
     }
 
     void PushDetector_Release()
