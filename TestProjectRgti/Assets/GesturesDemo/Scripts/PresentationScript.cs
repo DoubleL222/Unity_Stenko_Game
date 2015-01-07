@@ -87,7 +87,7 @@ public class PresentationScript : MonoBehaviour
 		else
 		{
 			// spin the presentation
-			targetRotation = targetRotationVer * targetRotationHor;
+			//targetRotation = targetRotationVer * targetRotationHor;
 			transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, spinSpeed * Time.deltaTime);
 			
 			// check if transform reaches the target rotation. If yes - stop spinning
@@ -107,7 +107,7 @@ public class PresentationScript : MonoBehaviour
 	{
 		// rotate the presentation
 		Vector3 rotateDegrees = new Vector3(90f, 0f, 0f);
-		targetRotationVer *= Quaternion.Euler(rotateDegrees);
+		targetRotation *= Quaternion.Euler(rotateDegrees);
 		isSpinning = true;
 	}
 
@@ -115,7 +115,7 @@ public class PresentationScript : MonoBehaviour
 	{		
 		// rotate the presentation
 		Vector3 rotateDegrees = new Vector3(-90f, 0f, 0f);
-		targetRotationVer *= Quaternion.Euler(rotateDegrees);
+		targetRotation *= Quaternion.Euler(rotateDegrees);
 		isSpinning = true;
 	}
 	
@@ -138,7 +138,7 @@ public class PresentationScript : MonoBehaviour
 		// rotate the presentation
 		float yawRotation = !isBehindUser ? 360f / maxSides : -360f / maxSides;
 		Vector3 rotateDegrees = new Vector3(0f, yawRotation, 0f);
-		targetRotationHor *= Quaternion.Euler(rotateDegrees);
+		targetRotation *= Quaternion.Euler(rotateDegrees);
 		isSpinning = true;
 	}
 	
@@ -160,7 +160,7 @@ public class PresentationScript : MonoBehaviour
 		// rotate the presentation
 		float yawRotation = !isBehindUser ? -360f / maxSides : 360f / maxSides;
 		Vector3 rotateDegrees = new Vector3(0f, yawRotation, 0f);
-		targetRotationHor *= Quaternion.Euler(rotateDegrees);
+		targetRotation *= Quaternion.Euler(rotateDegrees);
 		isSpinning = true;
 	}
 	

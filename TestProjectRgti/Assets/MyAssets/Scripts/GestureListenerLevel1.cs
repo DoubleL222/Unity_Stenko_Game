@@ -117,7 +117,7 @@ public class GestureListenerLevel1 : MonoBehaviour, KinectGestures.GestureListen
 		else if (gesture == KinectGestures.Gestures.SwipeDown)
 				swipeDown = true;
 		else if (gesture == KinectGestures.Gestures.RaiseRightHand)
-				Application.LoadLevel ("1");
+				Application.LoadLevel ("Level1Selection");
 		
 		return true;
 	}
