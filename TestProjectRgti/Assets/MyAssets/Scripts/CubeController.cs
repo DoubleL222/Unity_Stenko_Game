@@ -22,7 +22,10 @@ public class CubeController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		for (int i = 1; i < 6; i++) {
+		// Only for testing
+		// PlayerPrefs.SetInt ("Colors set up", 0);
+		                
+		for (int i = 1; i < 7; i++) {
 			sides[i-1] = GameObject.Find("Side" + i);
 		}
 		Color[] colorArray = { Color.red, Color.green, Color.yellow, Color.blue, 

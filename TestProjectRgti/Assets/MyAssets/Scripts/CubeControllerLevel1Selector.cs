@@ -50,25 +50,21 @@ public class CubeControllerLevel1Selector : MonoBehaviour {
 			Debug.Log (enumColors[i]);
 		}
 		int correctCube = PlayerPrefs.GetInt ("Correct cube");
-
+		Debug.Log (correctCube);
 		for (int i = 0; i < 4; i++) {
 			if(correctCube == (i + 1)) {
 				for(int j = 0; j < 6; j++) {
-					sides[i,j].renderer.material.color = colorArray[enumColors[i]];
+					sides[i,j].renderer.material.color = colorArray[enumColors[j]];
 				}
 			}
 			else {
 				colorArrayFake = shuffleSimple(colorArray);
 				for(int j = 0; j < 6; j++) {
-					sides[i,j].renderer.material.color = colorArrayFake[enumColors[i]];
+					sides[i,j].renderer.material.color = colorArrayFake[enumColors[j]];
 				}
 			}
 		}
 			
 	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
 }

@@ -1,12 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\CubeController.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\MyAssets\Scripts\SimpleGestureListener.cs">
     <Files>
-      <File FileName="Assets\MyAssets\Scripts\GestureListenerLevel1Selector.cs" Line="70" Column="33" />
-      <File FileName="Assets\GesturesDemo\Scripts\PresentationScript.cs" Line="49" Column="67" />
-      <File FileName="Assets\MyAssets\Scripts\ChangeCubeColorLevel1Selector.cs" Line="1" Column="1" />
-      <File FileName="Assets\MyAssets\Scripts\CubeControllerLevel1Selector.cs" Line="48" Column="23" />
-      <File FileName="Assets\MyAssets\Scripts\CubeController.cs" Line="41" Column="25" />
+      <File FileName="Assets\MyAssets\Scripts\SimpleGestureListener.cs" Line="22" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
