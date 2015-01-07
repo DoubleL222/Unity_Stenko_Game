@@ -25,7 +25,7 @@ public class PresentationScript : MonoBehaviour
 	private Quaternion targetRotationVer;
 	private Quaternion targetRotation;
 	
-	private GestureListener gestureListener;
+	private GestureListenerLevel1 gestureListener;
 	
 
 	
@@ -46,7 +46,7 @@ public class PresentationScript : MonoBehaviour
 		isSpinning = false;
 		
 		// get the gestures listener
-		gestureListener = Camera.main.GetComponent<GestureListener>();
+		gestureListener = Camera.main.GetComponent<GestureListenerLevel1>();
 	}
 	
 	void Update() 

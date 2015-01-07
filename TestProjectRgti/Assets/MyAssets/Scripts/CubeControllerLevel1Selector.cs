@@ -47,6 +47,7 @@ public class CubeControllerLevel1Selector : MonoBehaviour {
 		}
 		for (int i = 0; i < 6; i++) {
 			enumColors[i] = PlayerPrefs.GetInt("Color" + i);
+			Debug.Log (enumColors[i]);
 		}
 		int correctCube = PlayerPrefs.GetInt ("Correct cube");
 
