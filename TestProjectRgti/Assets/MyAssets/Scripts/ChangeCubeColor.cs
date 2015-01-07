@@ -37,7 +37,7 @@ public class ChangeCubeColor : MonoBehaviour {
 
 	IEnumerator WaitAndLoadLevel(float waitTime) {
 		yield return new WaitForSeconds(waitTime);
-		Debug.Log ("AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA");
+		Application.LoadLevel ("LevelSelectScreen");
 	}
 
 	// Use this for initialization

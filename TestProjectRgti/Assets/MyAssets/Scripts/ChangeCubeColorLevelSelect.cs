@@ -39,34 +39,39 @@ public class ChangeCubeColorLevelSelect : MonoBehaviour {
 			cube1.rigidbody.constraints = RigidbodyConstraints.None;
 			handLeft.SetActive(false);
 			level = "test";
-			StartCoroutine(WaitAndLoadLevel(2.0F));
+			StartCoroutine(WaitAndLoadLevel1(1.0F));
 		}
 		else if (x > 0.3f && y < 0.7f && x < 0.45f) {
 			cube2.rigidbody.freezeRotation = false;
 			cube2.rigidbody.constraints = RigidbodyConstraints.None;
 			handRight.SetActive(false);
 			level = "test2";
-			StartCoroutine(WaitAndLoadLevel(2.0F));
+			StartCoroutine(WaitAndLoadLevel1(1.0F));
 		}
 		else if (x > 0.55f && y < 0.4f && x < 0.7f) {
 			cube3.rigidbody.freezeRotation = false;
 			cube3.rigidbody.constraints = RigidbodyConstraints.None;
 			handRight.SetActive(false);
 			level = "test3";
-			StartCoroutine(WaitAndLoadLevel(2.0F));
+			StartCoroutine(WaitAndLoadLevel1(1.0F));
 		}
 		else if (x > 0.8f && y < 0.5f) {
 			cube4.rigidbody.freezeRotation = false;
 			cube4.rigidbody.constraints = RigidbodyConstraints.None;
 			handRight.SetActive(false);
 			level = "test4";
-			StartCoroutine(WaitAndLoadLevel(2.0F));
+			StartCoroutine(WaitAndLoadLevel2(1.0F));
 		}
 	}
 
-	IEnumerator WaitAndLoadLevel(float waitTime) {
+	IEnumerator WaitAndLoadLevel1(float waitTime) {
 		yield return new WaitForSeconds(waitTime);
-		Application.LoadLevel (level); // load scene
+		Application.LoadLevel ("Level1"); // load scene
+	}
+
+	IEnumerator WaitAndLoadLevel2 (float waitTime) {
+		yield return new WaitForSeconds(waitTime);
+		Application.LoadLevel ("FirstScreen"); // load scene
 	}
 
 	// Use this for initialization

@@ -67,7 +67,7 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 
 		else if(gesture == KinectGestures.Gestures.RaiseRightHand)
 		{
-			Application.LoadLevel("1");
+			Application.LoadLevel("Level1");
 		}
 
 		if(GestureInfo != null)
