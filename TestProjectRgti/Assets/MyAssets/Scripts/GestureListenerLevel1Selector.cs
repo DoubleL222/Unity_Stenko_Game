@@ -10,6 +10,7 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 	// GUI Text to display the gesture messages.
 	public GUIText GestureInfo;
 	private int numberOfRaises;
+	public GameObject Quad1, Quad2;
 
 	// private bool to track if progress message has been displayed
 	private bool progressDisplayed;
@@ -95,14 +96,16 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 	}
 
 	public void Changed(float x, float y) {
-		GameObject xMark = GameObject.Find ("Xmark");
+//		Quad1 = GameObject.Find ("Quad1");
+//		Quad2 = GameObject.Find ("Quad2");
 		int correct = PlayerPrefs.GetInt ("Correct cube");
 		if (x < 0.25f && y < 0.6f ) {
 			if (correct == 1) 
 				Application.LoadLevel("LevelSelectScreen");
 			else {
-				xMark.SetActive(true);
-				Destroy(xMark, 1f);
+				Quad1.SetActive(true);
+				Quad2.SetActive(true);
+				StartCoroutine(WaitAndSetInactive(1.0F));
 			}
 				
 		}
@@ -110,26 +113,37 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 			if (correct == 2) 
 				Application.LoadLevel("LevelSelectScreen");
 			else {
-				xMark.SetActive(true);
-				Destroy(xMark, 1f);
+				Quad1.SetActive(true);
+				Quad2.SetActive(true);
+				StartCoroutine(WaitAndSetInactive(1.0F));
 			}
 		}
 		else if (x >= 0.5f && y < 0.6f && x < 0.75f) {
 			if (correct == 3) 
 				Application.LoadLevel("LevelSelectScreen");
 			else {
-				xMark.SetActive(true);
-				Destroy(xMark, 1f);
+				Quad1.SetActive(true);
+				Quad2.SetActive(true);
+				StartCoroutine(WaitAndSetInactive(1.0F));
 			}
 		}
 		else if (x >= 0.75f && y < 0.6f) {
 			if (correct == 4) 
 				Application.LoadLevel("LevelSelectScreen");
 			else {
-				xMark.SetActive(true);
-				Destroy(xMark, 1f);
+				Quad1.SetActive(true);
+				Quad2.SetActive(true);
+				StartCoroutine(WaitAndSetInactive(1.0F));
 			}
 		}
+	}
+
+	IEnumerator WaitAndSetInactive(float waitTime) {
+//		Quad1 = GameObject.Find ("Quad1");
+//		Quad2 = GameObject.Find ("Quad2");
+		yield return new WaitForSeconds(waitTime);
+		Quad1.SetActive(false);
+		Quad2.SetActive(false);
 	}
 	
 }
