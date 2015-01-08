@@ -11,7 +11,7 @@ public class CubeController : MonoBehaviour {
 
 			int temp = enumColors[i];
 			enumColors[i] = enumColors[r];
-			enumColors[i] = temp;
+			enumColors[r] = temp;
 
 			Color tmp = arr[i];
 			arr[i] = arr[r];
@@ -22,8 +22,9 @@ public class CubeController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		//Debug.Log ("-------------------------------");
 		// Only for testing
-		// PlayerPrefs.SetInt ("Colors set up", 0);
+		//PlayerPrefs.SetInt ("Colors set up", 0);
 		                
 		for (int i = 1; i < 7; i++) {
 			sides[i-1] = GameObject.Find("Side" + i);
@@ -33,8 +34,9 @@ public class CubeController : MonoBehaviour {
 		if (PlayerPrefs.GetInt ("Colors set up") == 0) { //shufflej, shrani podatke v playerprefs, spremeni colors set up, določi correct cube
 			colorArray = shuffle (colorArray);
 			for (int i = 0; i < 6; i++) {
-					sides [i].renderer.material.color = colorArray [i];
-					PlayerPrefs.SetInt ("Color" + i, enumColors [i]);
+				sides [i].renderer.material.color = colorArray [i];
+				PlayerPrefs.SetInt ("Color" + i, enumColors [i]);
+				//Debug.Log(enumColors[i]);
 			}
 
 			PlayerPrefs.SetInt ("Colors set up", 1);
@@ -43,6 +45,7 @@ public class CubeController : MonoBehaviour {
 		} else {
 			for (int i = 0; i < 6; i++){
 				enumColors[i] = PlayerPrefs.GetInt ("Color" + i);
+				//Debug.Log (PlayerPrefs.GetInt ("Color"+i));
 				sides [i].renderer.material.color = colorArray [enumColors[i]];
 			}
 		}
