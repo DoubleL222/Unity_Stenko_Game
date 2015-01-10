@@ -5,6 +5,7 @@ public class CubeControllerLevel1Selector : MonoBehaviour {
 	GameObject[,] sides = new GameObject[4,6];
 	int[] enumColors = {0,1,2,3,4,5};
 
+	
 	Color[]  shuffleSimple ( Color[] arr  ){
 		for (int i = 5; i > 0; i--) {
 			int r = Random.Range(0,i);

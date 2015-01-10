@@ -3,6 +3,7 @@ using System.Collections;
 
 public class ChangeCubeColor : MonoBehaviour {
 
+	public GameObject Click;
 	GameObject startCube;
 	GameObject exitCube;
 	GameObject handLeft;
@@ -36,6 +37,7 @@ public class ChangeCubeColor : MonoBehaviour {
 	}
 
 	IEnumerator WaitAndLoadLevel(float waitTime) {
+		Click.audio.Play ();
 		yield return new WaitForSeconds(waitTime);
 		Application.LoadLevel ("LevelSelectScreen");
 	}

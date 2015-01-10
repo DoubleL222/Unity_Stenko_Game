@@ -4,9 +4,12 @@ using System.Collections.Generic;
 
 public class PresentationScript : MonoBehaviour 
 {
+	public GameObject Click;
+
 	public bool slideChangeWithGestures = true;
 	public bool slideChangeWithKeys = true;
 	public float spinSpeed = 5;
+
 	
 	public bool autoChangeAlfterDelay = false;
 	public float slideChangeAfterDelay = 10;
@@ -89,7 +92,7 @@ public class PresentationScript : MonoBehaviour
 			// spin the presentation
 			//targetRotation = targetRotationVer * targetRotationHor;
 			transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, spinSpeed * Time.deltaTime);
-			
+			Click.audio.Play();
 			// check if transform reaches the target rotation. If yes - stop spinning
 			float deltaTargetX = Mathf.Abs(targetRotation.eulerAngles.x - transform.rotation.eulerAngles.x);
 			float deltaTargetY = Mathf.Abs(targetRotation.eulerAngles.y - transform.rotation.eulerAngles.y);

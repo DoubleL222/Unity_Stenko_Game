@@ -11,6 +11,8 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 	public GUIText GestureInfo;
 	private int numberOfRaises;
 	public GameObject Quad1, Quad2;
+	public GameObject CorrectSound;
+	public GameObject WrongSound;
 
 	// private bool to track if progress message has been displayed
 	private bool progressDisplayed;
@@ -75,7 +77,7 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 			GestureInfo.guiText.text = sGestureText;
 		
 		progressDisplayed = false;
-		PlayerPrefs.SetInt ("Level 1 returns", PlayerPrefs.GetInt ("Level 1 returns") + 1);
+
 		return true;
 	}
 
@@ -100,9 +102,11 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 //		Quad2 = GameObject.Find ("Quad2");
 		int correct = PlayerPrefs.GetInt ("Correct cube");
 		if (x < 0.25f && y < 0.6f ) {
-			if (correct == 1) 
-				Application.LoadLevel("LevelSelectScreen");
+			if (correct == 1) {
+				StartCoroutine (WaitAndCorrect(2.0f));
+			}
 			else {
+				WrongSound.audio.Play();
 				Quad1.SetActive(true);
 				Quad2.SetActive(true);
 				StartCoroutine(WaitAndSetInactive(1.0F));
@@ -110,27 +114,33 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 				
 		}
 		else if (x < 0.5f && y < 0.6f && x > 0.25f) {
-			if (correct == 2) 
-				Application.LoadLevel("LevelSelectScreen");
+			if (correct == 2) {
+				StartCoroutine (WaitAndCorrect(2.0f));
+			}
 			else {
+				WrongSound.audio.Play();
 				Quad1.SetActive(true);
 				Quad2.SetActive(true);
 				StartCoroutine(WaitAndSetInactive(1.0F));
 			}
 		}
 		else if (x >= 0.5f && y < 0.6f && x < 0.75f) {
-			if (correct == 3) 
-				Application.LoadLevel("LevelSelectScreen");
+			if (correct == 3) {
+				StartCoroutine (WaitAndCorrect(2.0f));
+			}
 			else {
+				WrongSound.audio.Play();
 				Quad1.SetActive(true);
 				Quad2.SetActive(true);
 				StartCoroutine(WaitAndSetInactive(1.0F));
 			}
 		}
 		else if (x >= 0.75f && y < 0.6f) {
-			if (correct == 4) 
-				Application.LoadLevel("LevelSelectScreen");
+			if (correct == 4) {
+				StartCoroutine (WaitAndCorrect(2.0f));
+			}
 			else {
+				WrongSound.audio.Play();
 				Quad1.SetActive(true);
 				Quad2.SetActive(true);
 				StartCoroutine(WaitAndSetInactive(1.0F));
@@ -145,5 +155,12 @@ public class GestureListenerLevel1Selector : MonoBehaviour, KinectGestures.Gestu
 		Quad1.SetActive(false);
 		Quad2.SetActive(false);
 	}
+	IEnumerator WaitAndCorrect(float waitTime) {
+		CorrectSound.audio.Play();
+		yield return new WaitForSeconds(waitTime);
+		Application.LoadLevel("LevelSelectScreen");
+	}
+	
+
 	
 }
