@@ -125,11 +125,15 @@ public class gameController : MonoBehaviour {
 			gameOverText.color = Color.green;
 			gameOverText.text = "Bravo! Enačba je bila rešena pravilno";
 			winSound.audio.Play();
+			yield return new WaitForSeconds (3);
+			Application.LoadLevel("LevelSelectScreen");
 		} 
 		else {
 			gameOverText.color = Color.red;
 			gameOverText.text = "Narobe! Pravilen rezultat je "+ rez;
 			failSound.audio.Play();
+			yield return new WaitForSeconds (3);
+			Application.LoadLevel("LevelSelectScreen");
 		}
 		gameOver = true;
 	}
