@@ -83,6 +83,8 @@ public class ChangeCubeColorLevelSelect : MonoBehaviour {
 		handLeft = GameObject.Find("HandCursor1");
 		handRight = GameObject.Find("HandCursor2");
 
+		PlayerPrefs.SetInt ("Colors set up", 0);
+
 	}
 
 }

@@ -4,6 +4,10 @@ using System;
 
 public class SimpleGestureListener : MonoBehaviour, KinectGestures.GestureListenerInterface
 {
+
+	// Custom added
+	public DestroyObject destroyObjectScript;
+
 	// GUI Text to display the gesture messages.
 	public GUIText GestureInfo;
 	

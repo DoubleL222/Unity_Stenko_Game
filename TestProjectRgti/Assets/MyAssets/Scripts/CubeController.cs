@@ -22,14 +22,17 @@ public class CubeController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-		for (int i = 1; i < 6; i++) {
+		// Only for testing
+		// PlayerPrefs.SetInt ("Colors set up", 0);
+		                
+		for (int i = 1; i < 7; i++) {
 			sides[i-1] = GameObject.Find("Side" + i);
 		}
 		Color[] colorArray = { Color.red, Color.green, Color.yellow, Color.blue, 
 			Color.white, new Color32(238,130,238,255)};
 		if (PlayerPrefs.GetInt ("Colors set up") == 0) { //shufflej, shrani podatke v playerprefs, spremeni colors set up, določi correct cube
 			colorArray = shuffle (colorArray);
-			for (int i = 0; i < 5; i++) {
+			for (int i = 0; i < 6; i++) {
 					sides [i].renderer.material.color = colorArray [i];
 					PlayerPrefs.SetInt ("Color" + i, enumColors [i]);
 			}
@@ -38,7 +41,7 @@ public class CubeController : MonoBehaviour {
 			PlayerPrefs.SetInt ("Correct cube", Random.Range (1, 4));
 
 		} else {
-			for (int i = 0; i < 5; i++){
+			for (int i = 0; i < 6; i++){
 				enumColors[i] = PlayerPrefs.GetInt ("Color" + i);
 				sides [i].renderer.material.color = colorArray [enumColors[i]];
 			}

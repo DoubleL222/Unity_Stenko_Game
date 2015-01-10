@@ -21,11 +21,11 @@ public class PresentationScript : MonoBehaviour
 	private int tex = 0;
 	private bool isSpinning = false;
 	private float slideWaitUntil;
-	private Quaternion targetRotationHor;
-	private Quaternion targetRotationVer;
+	//private Quaternion targetRotationHor;
+	//private Quaternion targetRotationVer;
 	private Quaternion targetRotation;
 	
-	private GestureListener gestureListener;
+	private GestureListenerLevel1 gestureListener;
 	
 
 	
@@ -40,13 +40,13 @@ public class PresentationScript : MonoBehaviour
 		// delay the first slide
 		slideWaitUntil = Time.realtimeSinceStartup + slideChangeAfterDelay;
 
-		targetRotationHor = transform.rotation;
-		targetRotationVer = transform.rotation;
+		//targetRotation = transform.rotation;
+		//targetRotation = transform.rotation;
 		targetRotation = transform.rotation;
 		isSpinning = false;
 		
 		// get the gestures listener
-		gestureListener = Camera.main.GetComponent<GestureListener>();
+		gestureListener = Camera.main.GetComponent<GestureListenerLevel1>();
 	}
 	
 	void Update() 
