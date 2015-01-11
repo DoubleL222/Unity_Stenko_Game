@@ -24,7 +24,7 @@ public class CubeController : MonoBehaviour {
 	void Start () {
 		// Only for testing
 		//PlayerPrefsGetInt ("Level 1 returns");
-		PlayerPrefs.SetInt ("Level 1 returns", PlayerPrefs.GetInt ("Level 1 returns") + 1);
+		PlayerPrefs.SetInt ("Level 1 returns", PlayerPrefs.GetInt ("Level 1 returns") - 1);
 		for (int i = 1; i < 7; i++) {
 			sides[i-1] = GameObject.Find("Side" + i);
 		}
