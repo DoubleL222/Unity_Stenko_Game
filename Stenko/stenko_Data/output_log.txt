@@ -1,0 +1,1486 @@
+Initialize engine version: 4.6.0b20 (a3ecf55f1347)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 660M (ID=0xfd4)
+    Vendor:   NVIDIA
+    VRAM:     1990 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+- Completed reload, in  0.157 seconds
+desktop: 1920x1080 59Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+Platform assembly: E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: E:\git\stenkounityproject\stenkounityproject\Stenko\stenko_Data\Managed\System.dll (this message is harmless)
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1789)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+FormatException: Index (zero based) must be greater than or equal to zero and less than the size of the argument list.
+  at System.String.FormatHelper (System.Text.StringBuilder result, IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (IFormatProvider provider, System.String format, System.Object[] args) [0x00000] in <filename unknown>:0 
+  at System.String.Format (System.String format, System.Object arg0, System.Object arg1) [0x00000] in <filename unknown>:0 
+  at SimpleGestureListenerFirstScreen.GestureInProgress (UInt32 userId, Int32 userIndex, Gestures gesture, Single progress, SkeletonJoint joint, Vector3 screenPos) [0x00000] in <filename unknown>:0 
+  at KinectManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 0.506453 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 345.
+Total: 0.770612 ms (FindLiveObjects: 0.024095 ms CreateObjectMapping: 0.011155 ms MarkObjects: 0.167776 ms  DeleteObjects: 0.019633 ms)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1789)
+
+UnloadTime: 0.530995 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 335.
+Total: 1.335520 ms (FindLiveObjects: 0.040159 ms CreateObjectMapping: 0.018741 ms MarkObjects: 0.294055 ms  DeleteObjects: 0.167776 ms)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1789)
+
+UnloadTime: 5.140392 ms
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 449.
+Total: 0.918755 ms (FindLiveObjects: 0.019187 ms CreateObjectMapping: 0.016063 ms MarkObjects: 0.212844 ms  DeleteObjects: 0.162868 ms)
+
+3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+4
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+2
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+5
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+2
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.999074 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 351.
+Total: 1.397097 ms (FindLiveObjects: 0.016956 ms CreateObjectMapping: 0.016063 ms MarkObjects: 0.335107 ms  DeleteObjects: 0.397131 ms)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1789)
+
+UnloadTime: 0.926341 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 340.
+Total: 1.179345 ms (FindLiveObjects: 0.028557 ms CreateObjectMapping: 0.016956 ms MarkObjects: 0.327967 ms  DeleteObjects: 0.132079 ms)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1789)
+
+UnloadTime: 0.667983 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 449.
+Total: 0.944190 ms (FindLiveObjects: 0.019187 ms CreateObjectMapping: 0.016956 ms MarkObjects: 0.229800 ms  DeleteObjects: 0.161975 ms)
+
+4
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+5
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+2
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.730007 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 351.
+Total: 1.144540 ms (FindLiveObjects: 0.016063 ms CreateObjectMapping: 0.016063 ms MarkObjects: 0.197673 ms  DeleteObjects: 0.387760 ms)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1789)
+
+UnloadTime: 0.533226 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 419.
+Total: 6.844486 ms (FindLiveObjects: 0.017402 ms CreateObjectMapping: 0.012940 ms MarkObjects: 0.275760 ms  DeleteObjects: 6.014080 ms)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+8
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+7
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+All players calibrated.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+6
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+5
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+4
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+3
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+2
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+1
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+0
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+in pocakaj 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+game over called
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+after yield 
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
+UnloadTime: 0.991488 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 77 unused Assets to reduce memory usage. Loaded Objects now: 352.
+Total: 1.397544 ms (FindLiveObjects: 0.015617 ms CreateObjectMapping: 0.012494 ms MarkObjects: 0.204366 ms  DeleteObjects: 0.683600 ms)
+
+Waiting for users.
+ 
+(Filename: C:/BuildAgent/work/d63dfc6385190b60/artifacts/StandalonePlayerGenerated/UnityEngineDebug.cpp Line: 49)
+
