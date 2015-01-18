@@ -16,11 +16,9 @@ public class CapsuleMover : MonoBehaviour {
 	void FixedUpdate () {
 		diference = kursor.position - prevPosition;
 		prevPosition = kursor.position;
-	//	Debug.Log ("kursor:" + kursor.position);
-		//Debug.Log ("prev position:" + prevPosition);
 		diference.y = diference.y * movementY;
 		diference.x = diference.x * movementX;
-	//	Debug.Log ("the difference is:"+diference);
+	//	movementY in movementX sta koeficienta raztega premika kurzorja
 		rigidbody.transform.position = rigidbody.position +diference;
 
 

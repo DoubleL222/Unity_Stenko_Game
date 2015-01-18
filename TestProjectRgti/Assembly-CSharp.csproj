@@ -84,6 +84,7 @@
      <Compile Include="Assets\MyAssets\Scripts\destroyBySword.cs" />
      <Compile Include="Assets\MyAssets\Scripts\displayPoints.cs" />
      <Compile Include="Assets\MyAssets\Scripts\gameController.cs" />
+     <Compile Include="Assets\MyAssets\Scripts\shootBall.cs" />
      <Compile Include="Assets\OverlayDemo\Scripts\KinectOverlayer.cs" />
      <Compile Include="Assets\Scriptcs\Controller.cs" />
      <Compile Include="Assets\Scriptcs\revolucijaOkoliSonca.cs" />
